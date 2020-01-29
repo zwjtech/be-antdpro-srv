@@ -6,3 +6,5 @@ spring:
      date-format: yyyy-MM-dd HH:mm:ss
      parser:
          allow-missing-values: true
+  thymeleaf:
+      prefix: classpath:static/
