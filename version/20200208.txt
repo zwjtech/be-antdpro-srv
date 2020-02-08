@@ -1,0 +1,4 @@
+1.主分支采用hash路由
+为了方便做整合，最好使用 hash 路由
+2.尝试采用browserHistory 模式
+https://pro.ant.design/docs/deploy-cn#%E4%BD%BF%E7%94%A8-spring-boot
