@@ -6,11 +6,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 /**
  @author Alan Chen
  @description 拦截Ant Design Pro访问路径
- @date 2019/5/24br/>*/
+ @date 2019/5/24br
+ */
 @Controller
 public class AntDesignController {
     /**
-     配置url通配符，拦截多个地址
+     配置url通配符，拦截多个地址.
+     新加页面的都送到index
      @return
      */
     @RequestMapping(value = {
